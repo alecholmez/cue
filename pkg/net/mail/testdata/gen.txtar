@@ -1,0 +1,11 @@
+# generated from the original tests.
+# Henceforth it may be nicer to group tests into separate files.
+-- in.cue --
+import "mail"
+
+t1:  mail.Address & "alec.holmes@greymatter.io"
+-- out/mail --
+
+Result:
+t1: "alec.holmes@greymatter.io"
+
